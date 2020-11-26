@@ -15,8 +15,6 @@ public class Game<CardContent> {
         for (int i = 0; i < contents.size(); i++) {
             cards.add(new Card<>(false,false,contents.get(i)));
             cards.add(new Card<>(false,false,contents.get(i)));
-            cards.add(new Card<>(false,false,contents.get(i)));
-            cards.add(new Card<>(false,false,contents.get(i)));
         }
         Collections.shuffle(cards);
     }

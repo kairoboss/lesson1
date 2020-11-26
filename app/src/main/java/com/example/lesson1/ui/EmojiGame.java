@@ -15,7 +15,7 @@ public class EmojiGame {
 
     @RequiresApi(api = Build.VERSION_CODES.R)
     public EmojiGame(){
-        List<String> content = List.of("\uD83D\uDE0B", "\uD83D\uDC4C");
+        List<String> content = List.of("\uD83D\uDE0B", "\uD83D\uDC4C", "\uD83C\uDF0D", "\uD83E\uDD70", "\uD83E\uDD29");
         game = new Game<>(content);
     }
 
